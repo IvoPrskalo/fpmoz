@@ -1,5 +1,7 @@
 body.boxed-layout {
     background-color: #ecf0f1;
+    background-image: url(../images/bg.png);
+    background-repeat: repeat-x;
 }
 
 body.boxed-layout #wrapper {
@@ -37,7 +39,11 @@ body.boxed-layout #wrapper {
 }
 
 .navigation {
-    height: 100px;
+    haight:auto;
+}
+
+.logo  {
+    width: 100%;
 }
 
 .logo a{
@@ -45,6 +51,7 @@ body.boxed-layout #wrapper {
 }
 
 .logo img {
+    width: 100%;
     vertical-align: middle;
 }
 
@@ -58,11 +65,15 @@ body.boxed-layout #wrapper {
     background-color: #000;
 }
 
+.navigation .navbar-toggle {
+    margin-top:25px;
+}
+
 .navigation .navbar ul.navbar-nav > li > a {
     color: #000;
     font-weight: bold;
     line-height: 100px;
-    padding: 0 15px;
+    padding: 0 10px;
 }
 
 .breadcrumb-container {
@@ -97,4 +108,10 @@ body.boxed-layout #wrapper {
     background-color: #0d0e11;
     padding: 20px 0;
     text-align: center;
+}
+
+@media screen and (min-width: 767px) {
+    .navigation .navbar {
+        float:right !important;
+    }
 }

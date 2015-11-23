@@ -42,7 +42,7 @@ else
     <div class="header">
         <div class="container">
             <div class="row">
-                <div class="col-md-10 hidden-sm">
+                <div class="col-md-10">
                     <jdoc:include type="modules" name="topmenu" />
                 </div>
                 <div class="col-sm-12 col-md-2">
@@ -55,14 +55,14 @@ else
     <div class="navigation">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-3">
+                <div class="col-sm-3 col-md-3 pull-left">
                     <div class="logo">
                         <a title="FPMOZ" href="<?php echo $this->baseurl ?>">
                             <img alt="FPMOZ" src="<?php echo $this->baseurl . '/templates/' . $this->template . '/images/logo.png' ?>">
                         </a>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-9">
+                <div class="col-sm-9 col-md-9">
                     <jdoc:include type="modules" name="mainmenu" />
                 </div>
             </div>

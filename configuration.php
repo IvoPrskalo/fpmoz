@@ -14,7 +14,7 @@ class JConfig {
 	public $dbtype = 'pdomysql';
 	public $host = 'localhost';
 	public $user = 'root';
-	public $password = '';
+	public $password = 'csdigital';
 	public $db = 'fpmoz';
 	public $dbprefix = 'fpmoz_';
 	public $live_site = '';

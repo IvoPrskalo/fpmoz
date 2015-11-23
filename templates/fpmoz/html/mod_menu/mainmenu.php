@@ -3,7 +3,7 @@
 defined('_JEXEC') or die;
 
 ?>
-<nav class="navbar pull-right <?php echo $class_sfx;?>"<?php if($params->get('tag_id') != null) echo ' id="' . $params->get('tag_id') . '"'; ?>>
+<nav class="navbar <?php echo $class_sfx;?>"<?php if($params->get('tag_id') != null) echo ' id="' . $params->get('tag_id') . '"'; ?>>
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu-navbar-collapse" aria-expanded="false">
